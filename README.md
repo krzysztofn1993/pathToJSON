@@ -31,4 +31,4 @@ Function getStructure(path) returns whole structure as associative array which t
 }
 ```
 
-Validation of correct generated JSON format was done @[(https://jsonlint.com/)]
+Validation of correct generated JSON format was done @https://jsonlint.com/
