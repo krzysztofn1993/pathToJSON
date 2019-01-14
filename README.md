@@ -9,7 +9,7 @@ $structureJSON = json_encode(getStructure(__DIR__)); // change __DIR__ to your p
 ```
 Function getStructure(path) return whole structure as associative array which then is changed to JSON format with built in function json_encode.
 
-* * Example of returned JSON format
+*Example of returned JSON format*
 ```
 {
 	"path": "C:\\xampp\\htdocs\\Projects\\pathToJSON",
