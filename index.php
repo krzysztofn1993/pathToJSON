@@ -9,7 +9,7 @@ function getStructure($path){
             if (is_dir("$path/$file")) {
                 array_push($structure["components"],getStructure("$path/$file"));
             }else if (is_file("$path/$file")) {
-                array_push($structure["components"], array("path"=> $file, "type"=>"file"));
+                array_push($structure["components"], array("path"=> "$path/$file", "type"=>"file"));
             }
         }
     }
@@ -18,5 +18,5 @@ function getStructure($path){
 
 
 $structureJSON = json_encode(getStructure(__DIR__));
-print_r($strictureJSON);
+print_r($structureJSON);
 ?>
