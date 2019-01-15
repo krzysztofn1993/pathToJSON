@@ -1,5 +1,5 @@
 # pathToJSON
-**Program that returns structure of directory as JSON format.Program runs through all directories in path you given recursively.**
+**Program that returns structure of directory as JSON format. Program runs through all directories in path you given recursively.**
 
 
 By default program returns structure of directory in which file index.php is placed. 
